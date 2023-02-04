@@ -7,7 +7,7 @@ module.exports = function(deployer) {
       .then(() => NFTMarketplace.deployed())
       .then(_instance => {
           fs.writeFileSync(
-            "../app/config.js",
+            "../app/src/config.js",
             `export const marketplaceAddress = "${_instance.address}"; export const networkURL = "http://127.0.0.1:7545";`
           );
       })

@@ -53,7 +53,6 @@ export function Dashboard() {
     return (
       <div>
           <div className="p-4">
-              <button onClick={connectWallet} className="bg-pink-500 text-white font-bold mt-20 py-2 px-12 rounded">connectWallet {connectedAccount}</button>
               <h2 className="text-2xl py-2">Items Listed</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
                   {

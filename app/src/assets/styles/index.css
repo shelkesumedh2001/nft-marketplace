@@ -1,0 +1,165 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  
+  p {
+    color: grey;
+  }
+  
+  .big-heading
+  {
+      font-family: "Montserrat";
+      font-size: 3.5rem;
+      font-weight: bolder;
+      line-height: 4.5rem;
+  }
+  
+  .section-heading
+  {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+  }
+  
+  .container {
+    padding: 16.938px 84.750px 90px;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    padding-bottom: 60px;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+  }
+  
+  .Download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .feature-box {
+    padding: 5%;
+  }
+  
+  .icon {
+    margin-bottom: 1rem;
+    color: #00ABE4;
+  }
+  
+  .icon:hover {
+    color: #00ABE4;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  .pricing-col {
+    padding: 3% 2%;
+  }
+  
+  .title-img {
+    position: absolute;
+    width: 15%;
+    margin-left: 150px;
+  }
+  
+  
+  .social-icon
+  {
+    margin: 20px 10px;
+  }
+  
+  .feature-title
+  {
+    font-size: 1.5rem;
+  }
+  
+  .title {
+    text-align: left;
+    color: black;
+    background-color: #00ABE4;
+  }
+  
+  @media (max-width: 1500px) {
+    .title {
+      text-align: center;
+    }
+  
+    .title-img {
+      position: static;
+      width: 60%;
+      transform: rotate(0);
+    }
+  }
+  
+  #footer {
+    background-color: #fff;
+  }
+  
+  #cta {
+    padding: 7% 15%;
+    color: #fff;
+    background-color: #00ABE4;
+  }
+  
+  #features {
+    position: relative;
+    padding: 7% 15%;
+    background-color: #E9F1FA;
+  }
+  
+  #testimonials {
+    color: black;
+    background-color: #00ABE4;
+  }
+  
+  
+  .testimonial-text
+  {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  
+  #press {
+    padding-bottom: 3%;
+    background-color: #E9F1FA;
+  }
+  
+  #pricing {
+    padding: 100px;
+  }
+  
+  .price-text
+  {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  
